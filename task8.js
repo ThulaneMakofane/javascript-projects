@@ -1,6 +1,6 @@
 //task 8
 
-function Realtime(num)
+function RealTime(num)
  { 
   var hours = Math.floor(num / 60);  
   var minutes = num % 60;
@@ -8,4 +8,4 @@ function Realtime(num)
   console.log(num + " will become" + hours+  "hour" + "and" + minutes + " minutes")
 }
 
-Realtime(71);
+RealTme(71);
