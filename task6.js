@@ -1,19 +1,24 @@
 //task 6
 
-function Largestnum(num1,num2,num3){
+function LargestNum(){
+
+    let result ="";
+   var num1 =6;
+   var num2 = 7;
+   var num3 =19;
+  
     if(num1>num2 && num1>num3)
 		{
-			console.log(num1+" is  the maximum number");
+			return result =console.log(num1+" is  the maximum number");
 		}
 		else if(num2>num1 && num2>num3)
 		{
-			console.log(num2 +" is  the maximum number");
+		return  result=	console.log(num2 +" is  the maximum number");
 		}
 		else if(num3>num1 && num3>num1)
 		{
-			console.log(num3+" is the maximum number");
-		}
+       return result=console.log(num3+" is the maximum number");
+    }
+   
 }
-
-Largestnum(8,2,3
-    );
+LargestNum();
