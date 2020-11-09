@@ -4,8 +4,8 @@ function areaCalculations(){
  var side2=2;
  var side3=2;
 
-const Parameter = (side1 +side2 + side3 ) /2;
-const Area = Math.sqrt(Parameter * (Parameter- side1) * (Parameter - side2)* (Parameter-side3));
-return Area;
+const parameter = (side1 +side2 + side3 ) /2;
+const area = Math.sqrt(parameter * (parameter- side1) * (parameter - side2)* (parameter-side3));
+return area;
 }
 console.log(" The area of this triangle is "+ areaCalculations());
