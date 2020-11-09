@@ -1,6 +1,6 @@
 //task 6
 
-function LargestNum(){
+function largestNum(){
 
     let result ="";
    var num1 =6;
@@ -21,4 +21,4 @@ function LargestNum(){
     }
    
 }
-LargestNum();
+largestNum();
