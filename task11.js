@@ -17,7 +17,7 @@ function common(string1,string2) {
   }
   
   common = commonChars.join(""); 
-  console.log(common);
+  console.log("input:"+ " "+string1+","+string2 + " "+"output: common letters:"+common);
 }
 
 common("string", 'strong');
