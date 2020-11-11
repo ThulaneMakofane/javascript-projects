@@ -1,10 +1,10 @@
-//task 9
-function sumMOfMultiples(num) {
-    let total = 0;
-    for(let i=1; i<num; i++) {
+function sumOfMultiples() {
+    let sum = 0;
+    for(let i=1; i<10; i++) {
         if(i % 3 === 0 || i % 5 === 0){
-            total += i;
+            sum += i;
         }
+        
     }
-    return total;
+    return sum;
 }
