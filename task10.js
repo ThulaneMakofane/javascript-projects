@@ -1,6 +1,6 @@
 //task 10
  function vowelsPrint(string) {
-     const vowels = 'aeiou';
+     const vowels = 'AEIOUaeiou';
      var phonetics = [];
      for (var i = 0; i < string.length; i++) {
      if (vowels.includes(string[i])) {
@@ -9,7 +9,6 @@
      phonetics += string[i] + '\n';
      }
      }
-console.log(phonetics);
-}
 
-vowelsPrint("makofanethulane");
+}
+vowelsPrint("makofanethulanE")
