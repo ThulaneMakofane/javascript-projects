@@ -1,7 +1,7 @@
-// task 4
+// task4
 function numThree(num1 ,num2){
 let sum = num1 + num2;
 return(((sum +"").includes('3')) && (num1==3 || num2==3))// {
 }
 
-(numThree4(5,10);
+numThree(5,10);
