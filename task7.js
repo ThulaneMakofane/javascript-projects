@@ -1,6 +1,6 @@
 //task 7
 
-function cElsiusToFahrenheits(celsius) 
+function celsiusToFahrenheits(celsius) 
 {
   var celsiusTemp = celsius;
   var celsiusToFahr = celsiusTemp * 9 / 5 + 32;
@@ -13,6 +13,6 @@ function fahrenheitsToCelsius(fahrenheit)
   var fahrenheitsTempToCelcius = (fahrenheitsTemp - 32) * 5 / 9;
     console.log( fahrenheitsTemp+'\xB0F is ' + fahrenheitsTempToCelcius + '\xB0C.');
 } 
-cElsiusToFahrenheits(20);
+celsiusToFahrenheits(20);
 fahrenheitsToCelsius(100);
 
